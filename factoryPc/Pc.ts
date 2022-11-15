@@ -17,4 +17,4 @@ class Pc extends Computer{
     }
 }
 
-export { Pc };''
+export { Pc };

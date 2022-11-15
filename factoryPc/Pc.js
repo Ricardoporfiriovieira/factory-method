@@ -36,4 +36,3 @@ var Pc = /** @class */ (function (_super) {
     return Pc;
 }(Computer_1.Computer));
 exports.Pc = Pc;
-'';

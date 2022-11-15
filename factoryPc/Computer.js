@@ -4,6 +4,9 @@ exports.Computer = void 0;
 var Computer = /** @class */ (function () {
     function Computer() {
     }
+    Computer.prototype.toString = function () {
+        console.log("\nEsse ".concat(this.getType(), " tem:\n").concat(this.getRam(), "GB de ram\n").concat(this.getHdd(), "GB de HD\n").concat(this.getCpu(), "GHz de cpu"));
+    };
     Computer.prototype.getRam = function () {
         return this.ram;
     };
@@ -20,6 +23,7 @@ var Computer = /** @class */ (function () {
         return this.cpu;
     };
     Computer.prototype.setCpu = function (cp) {
+        this.cpu = cp;
     };
     Computer.prototype.getType = function () {
         return this.type;
