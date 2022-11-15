@@ -10,7 +10,7 @@ abstract class Computer implements IComputer{
     public abstract desligar():void;
 
     public toString():void{
-        console.log(`\nEsse ${this.getType()} tem:\n${this.getRam()}GB de ram\n${this.getHdd()}GB de HD\n${this.getCpu()}GHz de cpu`)
+        console.log(`\nEsse ${this.getType()} tem:\n${this.getRam()}GB de ram\n${this.getHdd()}GB de HD\n${this.getCpu()}GHz de cpu\n\n`)
     }
 
     public getRam(){

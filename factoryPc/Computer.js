@@ -5,7 +5,7 @@ var Computer = /** @class */ (function () {
     function Computer() {
     }
     Computer.prototype.toString = function () {
-        console.log("\nEsse ".concat(this.getType(), " tem:\n").concat(this.getRam(), "GB de ram\n").concat(this.getHdd(), "GB de HD\n").concat(this.getCpu(), "GHz de cpu"));
+        console.log("\nEsse ".concat(this.getType(), " tem:\n").concat(this.getRam(), "GB de ram\n").concat(this.getHdd(), "GB de HD\n").concat(this.getCpu(), "GHz de cpu\n\n"));
     };
     Computer.prototype.getRam = function () {
         return this.ram;

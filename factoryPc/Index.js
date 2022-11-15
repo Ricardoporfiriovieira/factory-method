@@ -5,3 +5,4 @@ var fabricaComputer = new FactoryComputer_1.FactoryComputer();
 var pc = fabricaComputer.createComputer(4, 2, 1.6, 'pc');
 var server = fabricaComputer.createComputer(4, 2, 1.6, 'server');
 pc.toString();
+server.toString();
